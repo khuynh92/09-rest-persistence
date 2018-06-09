@@ -5,7 +5,6 @@ const storage = module.exports = {};
 const database = {};
 
 storage.getAll = () => {
-  console.log(database);
   return Promise.resolve(database);
 };
 
