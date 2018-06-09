@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.com/khuynh92/09-rest-persistence.svg?branch=master)](https://travis-ci.com/khuynh92/09-rest-persistence)
 ## 09-persistence
 
-  Travis: https://travis-ci.com/khuynh92/09-rest-persistence
+  Travis: https://travis-ci.com/khuynh92/09-rest-persistence  
   Heroku: https://khoa-09-persistence.herokuapp.com  
   PR: https://github.com/khuynh92/09-rest-persistence/pull/2  
 
