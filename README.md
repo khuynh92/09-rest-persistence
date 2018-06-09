@@ -4,7 +4,8 @@
 
   Travis: https://travis-ci.com/khuynh92/08-rest  
   Heroku: https://khoa-09-persistence.herokuapp.com  
-  PR: 
+  PR: https://github.com/khuynh92/09-rest-persistence/pull/2  
+
 in order to run this app:
 
  1. clone this repository
@@ -23,3 +24,4 @@ in order to run this app:
  7. To test DELETE, use your choice of of tools that makes requests to servers (httpie, postman). If no id query is passed, a 404 error will appear. DELETE requests will only work on pathnames with id queries: api/v1/pizza/?id=youridhere.
 
 
+This lab was built off of codefellows 09-rest-persistence demo code.
