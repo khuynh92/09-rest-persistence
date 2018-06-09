@@ -71,9 +71,9 @@ storage.save = (data) => {
 
 storage.deleteOne = id => {
   return new Promise((resolve, reject) => {
-    if (database[id]) {
-      delete database[id];
-      resolve(`${id} has been deleted`);
-    } else { reject (`${id} not found`);}
+    fs.unlink(`${root}/${id}.json`, (err) => {
+      if(err) { reject(err); }
+      resolve(`${id} has been deleted found`);
+    });
   });
 };
